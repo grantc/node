@@ -1,6 +1,4 @@
-language: c
-
-compiler: gcc
+language: node_js
 
 before_script:
   - "./configure"
