@@ -8,7 +8,4 @@ script:
   - "make test"
 
 notifications:
-  email: false
-  irc:
-    - "irc.freenode.net#libuv"
-
+  email: grant.croker@gmail.com
