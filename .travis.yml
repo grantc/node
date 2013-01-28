@@ -1,11 +1,12 @@
-language: node_js
+language: c
+
+compiler: gcc
 
 before_script:
   - "./configure"
-  - "make"
 
 script:
-  - "make test"
+  - "make"
 
 notifications:
   email: grant.croker@gmail.com
